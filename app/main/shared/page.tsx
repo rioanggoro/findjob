@@ -1,4 +1,4 @@
-import AppliedJobCard from "@/components/applied/applied-job-card";
+import AppliedJobCard from "@/components/card/applied-job-card";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
