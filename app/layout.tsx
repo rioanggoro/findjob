@@ -5,7 +5,7 @@ import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "WorkFinder",
+  title: "FindJob",
   description: "an app to find work",
 };
 
