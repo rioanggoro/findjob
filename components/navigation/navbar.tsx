@@ -9,6 +9,7 @@ const Navbar = async () => {
     const user: User | null = await currentUser();
     return(
         <nav className="flex fixed items-center w-full shadow-md px-4 lg:px16 bg-white h-16 z-20">
+            
             <div className="flex items-center w-full gap-4 justify-between">
                 <div className="lg:flex items-center gap-2 hidden">
                     <Layers className="text-brand" />
@@ -19,10 +20,10 @@ const Navbar = async () => {
                    <Link href="../">Home</Link>
                     </li>
                     <li className="hover:text-brand">
-                    <Link href="../jobs/applied">Applied Jobs</Link>
+                    <Link href="../jobs/applied">Details Jobs</Link>
                     </li>
                     <li className="hover:text-brand">
-                    <Link href="../jobs/shared">Shared Jobs</Link>
+                    <Link href="../jobs/shared">Applied Jobs</Link>
                     </li>
                 </ul>
                 <MobileToggle />
@@ -37,6 +38,7 @@ const Navbar = async () => {
                     </Link>
                 )}
             </div>
+            
         </nav>
     )
 }

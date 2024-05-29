@@ -1,0 +1,32 @@
+const AppliedJobCard = () => {
+  return (
+    <div className="bg-white shadow-md rounded-md p-4">
+      <div className="flex items-center mb-4">
+        <div className="bg-purple-500 rounded-full p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 1h-2m2 2h-2m2 2h-2m2 2h-2m2-8h-2m2 4h-2m2 4h-2" />
+          </svg>
+        </div>
+        <div className="ml-3">
+          <h2 className="font-bold text-lg">Bukalapak</h2>
+          <p className="text-gray-500 text-sm">Full Time</p>
+        </div>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-bold text-xl">Backend Programmer</h3>
+      </div>
+      <div>
+        <p className="text-gray-500 text-sm">Kota Jakarta Selatan</p>
+      </div>
+      <div className="mt-4">
+      <button className="text-white bg-gradient-to-r from-lime-700 via-lime-600 to-lime-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-700 rounded-md font-bold py-1 px-1">
+      Sudah Daftar
+      </button>
+      </div>
+    </div>
+    
+    
+  );
+};
+
+tambahkan 1 lagi
