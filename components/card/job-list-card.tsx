@@ -32,12 +32,14 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
-            >
-              View Job Details
-            </button>
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+              >
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -66,12 +68,14 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
-            >
-              View Job Details
-            </button>
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+              >
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -98,14 +102,15 @@ const JobListCard = () => {
               <Clock5 className="w-5 h-5 text-brand" />
               <p className="text-muted-foreground uppercase">FULL TIME</p>
             </div>
-          </div>
-          <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
-            >
-              View Job Details
-            </button>
+          </div><div className="w-full flex justify-center md:justify-start">
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+              >
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -132,12 +137,14 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
               >
-              View Job Details
-            </button>
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -164,12 +171,46 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
               >
-              View Job Details
-            </button>
+                View Job Details
+              </button>
+            </Link>
+          </div>
+        </CardContent>
+      </Card>
+       {/* Card Tokopedia data analyst */}
+       <Card className="flex flex-col items-center justify-center lg:flex-row gap-4 px-7 py-6 shadow rounded-xl">
+        <CardHeader className="p-0 rounded-2xl overflow-hidden shadow-md w-[110px] h-[110px] hover:-translate-y-1 border transition-all duration-500">
+          <AspectRatio ratio={1 / 1}>
+            <Image alt="company image" src={"/tokopedia.jpeg"} fill objectFit="cover" />
+          </AspectRatio>
+        </CardHeader>
+        <CardContent className="p-0 flex-col gap-4 lg:gap-0 lg:justify-between">
+          <h1 className="font-semibold text-lg text-brand">Tokopedia</h1>
+          <h1 className="font-semibold lg:text-lg lg:text-left text-black md:text-center md:text-sm sm:text-center sm:text-sm">
+            Data Analyst
+          </h1>
+          <div className="flex flex-col gap-4 w-full md:flex-row md:items-center md:justify-between">
+            <div className="bg-muted text-muted-foreground px-2 py-1 rounded-md">
+              DEVELOPMENT
+            </div>
+            <div className="flex items-center gap-2">
+              <Clock5 className="w-5 h-5 text-brand" />
+              <p className="text-muted-foreground uppercase">Remote</p>
+            </div>
+          </div><div className="w-full flex justify-center md:justify-start">
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+              >
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -195,12 +236,14 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
               >
-              View Job Details
-            </button>
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>
@@ -226,43 +269,14 @@ const JobListCard = () => {
             </div>
           </div>
           <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
+            <Link href="/jobs/details" passHref>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
               >
-              View Job Details
-            </button>
-          </div>
-        </CardContent>
-      </Card>
-       {/* Card Tokopedia data analyst */}
-       <Card className="flex flex-col items-center justify-center lg:flex-row gap-4 px-7 py-6 shadow rounded-xl">
-        <CardHeader className="p-0 rounded-2xl overflow-hidden shadow-md w-[110px] h-[110px] hover:-translate-y-1 border transition-all duration-500">
-          <AspectRatio ratio={1 / 1}>
-            <Image alt="company image" src={"/tokopedia.jpeg"} fill objectFit="cover" />
-          </AspectRatio>
-        </CardHeader>
-        <CardContent className="p-0 flex-col gap-4 lg:gap-0 lg:justify-between">
-          <h1 className="font-semibold text-lg text-brand">Tokopedia</h1>
-          <h1 className="font-semibold lg:text-lg lg:text-left text-black md:text-center md:text-sm sm:text-center sm:text-sm">
-            Data Analyst
-          </h1>
-          <div className="flex flex-col gap-4 w-full md:flex-row md:items-center md:justify-between">
-            <div className="bg-muted text-muted-foreground px-2 py-1 rounded-md">
-              DEVELOPMENT
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock5 className="w-5 h-5 text-brand" />
-              <p className="text-muted-foreground uppercase">Remote</p>
-            </div>
-          </div>
-          <div className="w-full flex justify-center md:justify-start">
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 md:w-full md:text-center md:text-sm"
-              >
-              Lihat Detail Lowongan
-            </button>
+                View Job Details
+              </button>
+            </Link>
           </div>
         </CardContent>
       </Card>

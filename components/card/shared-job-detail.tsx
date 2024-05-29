@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader } from "../ui/card";
 import Link from "next/link";
 import { Clock5 } from "lucide-react";
 
-  const AppliedJobCard = () => {
+  const SharedJobCard = () => {
     const [showActivity, setShowActivity] = useState(false);
 
     const handleShowActivity = () => {
@@ -114,4 +114,4 @@ import { Clock5 } from "lucide-react";
   );
 };
 
-export default AppliedJobCard;
+export default SharedJobCard;
