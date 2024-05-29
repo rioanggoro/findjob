@@ -36,7 +36,7 @@ const DetailsJobCard = () => {
               <h3 className="font-bold text-xl">Backend Programmer</h3>
             </div>
             <div>
-              <p className="text-gray-500 text-sm">Kota Jakarta Selatan</p>
+              <p className="text-gray-500 text-sm">South Jakarta</p>
             </div>
             <div className="mt-4">
               <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -65,7 +65,7 @@ const DetailsJobCard = () => {
               <h3 className="font-bold text-xl">Backend Programmer</h3>
             </div>
             <div>
-              <p className="text-gray-500 text-sm">Kota Jakarta Selatan</p>
+              <p className="text-gray-500 text-sm">South Jakarta</p>
             </div>
             <div className="mt-4">
               <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -94,7 +94,7 @@ const DetailsJobCard = () => {
               <h3 className="font-bold text-xl">Backend Programmer</h3>
             </div>
             <div>
-              <p className="text-gray-500 text-sm">Kota Jakarta Selatan</p>
+              <p className="text-gray-500 text-sm">South Jakarta</p>
             </div>
             <div className="mt-4">
               <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -123,7 +123,7 @@ const DetailsJobCard = () => {
               <h3 className="font-bold text-xl">Backend Programmer</h3>
             </div>
             <div>
-              <p className="text-gray-500 text-sm">Kota Jakarta Selatan</p>
+              <p className="text-gray-500 text-sm">South Jakarta</p>
             </div>
             <div className="mt-4">
               <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -150,7 +150,7 @@ const DetailsJobCard = () => {
             <h3 className="font-bold text-xl">Frontend Developer</h3>
           </div>
           <div>
-            <p className="text-gray-500 text-sm">Kota Jakarta Pusat</p>
+          <p className="text-gray-500 text-sm">South Jakarta</p>
           </div>
           <div className="mt-4">
             <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -176,7 +176,7 @@ const DetailsJobCard = () => {
             <h3 className="font-bold text-xl">Frontend Developer</h3>
           </div>
           <div>
-            <p className="text-gray-500 text-sm">Kota Jakarta Pusat</p>
+          <p className="text-gray-500 text-sm">South Jakarta</p>
           </div>
           <div className="mt-4">
             <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
@@ -202,7 +202,7 @@ const DetailsJobCard = () => {
             <h3 className="font-bold text-xl">Frontend Developer</h3>
           </div>
           <div>
-            <p className="text-gray-500 text-sm">Kota Jakarta Pusat</p>
+          <p className="text-gray-500 text-sm">South Jakarta</p>
           </div>
           <div className="mt-4">
             <button className ="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md font-bold py-1 px-1">
