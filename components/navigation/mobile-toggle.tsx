@@ -24,10 +24,10 @@ const MobileToggle = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="hover:text-brand">
-            <Link href="/jobs/applied">Applied Jobs</Link>
+            <Link href="/jobs/details">Details Jobs</Link>
           </li>
           <li className="hover:text-brand">
-            <Link href="/jobs/shared">Shared Jobs</Link>
+            <Link href="/jobs/applied">Applied Jobs</Link>
           </li>
         </ul>
       </SheetContent>
