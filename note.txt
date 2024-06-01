@@ -8,3 +8,13 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 UPLOADTHING_SECRET=sk_live_a07fb0c632227f6ddbf7cfb48d1b01b374241b68639ae5f131c84726ba7585f5
 UPLOADTHING_APP_ID=ub22dkpjjn
+
+
+ <Link href="/" passHref>
+              <button className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 rounded-md font-medium py-1 px-1.5 flex items-center">
+                <svg className="h-6 w-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                APPLIED
+              </button>
+            </Link>

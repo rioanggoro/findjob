@@ -17,7 +17,7 @@ const MobileToggle = () => {
       <SheetContent side="left">
         <div className="flex items-center gap-2">
           <Layers className="text-brand" />
-          <h1 className="text-xl font-bold">WorkFinder</h1>
+          <h1 className="text-xl font-bold">FindJob</h1>
         </div>
         <ul className="mt-10 space-y-4">
           <li className="hover:text-brand">
