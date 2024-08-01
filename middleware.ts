@@ -1,13 +1,13 @@
-import { authMiddleware, clerkClient } from "@clerk/nextjs";
-import { NextResponse } from "next/server";
+import { authMiddleware, clerkClient } from '@clerk/nextjs';
+import { NextResponse } from 'next/server';
 
 export default authMiddleware({
   publicRoutes: [
-    "/",
-    "/sign-in(.*)",
-    "/sign-up(.*)",
-    "/sso-callback(.*)",
-    "/api/uploadthing",
+    '/',
+    '/sign-in(.*)',
+    '/sign-up(.*)',
+    '/sso-callback(.*)',
+    '/api/uploadthing',
   ],
 
   async afterAuth(auth, req) {
@@ -18,14 +18,14 @@ export default authMiddleware({
     const url = new URL(req.nextUrl.origin);
 
     if (!auth.userId) {
-      url.pathname = "/sign-in";
+      url.pathname = '/sign-in';
       return NextResponse.redirect(url);
     }
 
     const user = await clerkClient.users.getUser(auth.userId);
 
     if (!user) {
-      throw new Error("User not found");
+      throw new Error('User not found');
     }
 
     const res = NextResponse.next();
@@ -35,5 +35,5 @@ export default authMiddleware({
 });
 
 export const config = {
-  matcher: ["/((?!.+.[w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
+  matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 };
